@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(41, 41, 41)
+}
+div{
+    font: 20px arial;
+    margin: 20px;
+    color: aqua;
+}
+button{
+    font: 20px arial;
+    background-color: dimgray;
+    color: antiquewhite;
+    border-radius: 8px;
+    border-color: azure;
+}
+table{
+    margin: 20px;
+    border-radius: 10px;
+    font: 12pt arial;
+    color: rgb(0, 255, 255);
+    background-color: gray;
+}
+div
