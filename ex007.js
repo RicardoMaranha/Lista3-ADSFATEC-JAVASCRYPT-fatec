@@ -9,6 +9,7 @@ function calcular(){
     let altura_20_10 = 0
     let p_40_menos = 0
     let perc_40_menos = 0
+    
     while(c < 5){
         idade = Number(window.prompt("Digite a idade:"))
         peso = Number(window.prompt("Digite o peso:"))

@@ -1,15 +1,23 @@
 body{
-    background-color: rgb(41, 41, 41)
+    width: 400px;
+    background-color: rgb(41, 41, 41);
+    margin:100px auto;
+    
 }
-div{
+#container{
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    
+    text-align: center;
     font: 20px arial;
-    margin: 20px;
     color: aqua;
+
 }
 button{
     font: 20px arial;
     background-color: dimgray;
     color: antiquewhite;
+    
     border-radius: 8px;
     border-color: azure;
 }
@@ -20,4 +28,3 @@ table{
     color: rgb(0, 255, 255);
     background-color: gray;
 }
-div

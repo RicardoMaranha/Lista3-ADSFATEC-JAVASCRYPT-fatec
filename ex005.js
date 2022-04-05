@@ -1,18 +1,14 @@
 function calcular(){
     let n1 = 1
-    let j = 0
-    let i = 1
     let resposta = ""
     let saida = document.getElementById('saida')
-    while(j < 10){
-        while (i<=10){
-            resposta = resposta + `${n1} x ${i} = ${n1 * i} <br>`
-            i++ 
+    for(let j=1; j <= 10; j++){
+        for (let i=1; i<=10; i++){
+            resposta = resposta + `${n1} x ${i} = ${n1 * i} <br/>`
         }
-        n1 ++
-        i = 0
-        resposta = resposta + "<br>"
-        j ++
+        n1 ++      
+        resposta = `${resposta}<hr/>`
+        
     }
 
     saida.innerHTML = resposta
