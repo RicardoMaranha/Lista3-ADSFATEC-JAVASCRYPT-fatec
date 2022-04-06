@@ -1,7 +1,8 @@
 body{
-    width: 400px;
+    width: 430px;
     background-color: rgb(41, 41, 41);
-    margin:100px auto;
+    margin:50px auto;
+    
     
 }
 #container{
@@ -21,10 +22,12 @@ button{
     border-radius: 8px;
     border-color: azure;
 }
-table{
-    margin: 20px;
+#tabela{
+    margin: auto ;
     border-radius: 10px;
-    font: 12pt arial;
+    text-align: center;
+    padding: 8px;
+    font: 15pt arial;
     color: rgb(0, 255, 255);
-    background-color: gray;
+    background-color: rgba(34, 34, 34, 0.434);
 }
